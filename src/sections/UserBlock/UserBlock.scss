@@ -1,0 +1,81 @@
+@import "@/theme/index.scss";
+.userBlock {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__search {
+    display: flex;
+    justify-content: center;
+    width: 216px;
+    height: 38px;
+    background: #f9fbff;
+    border-radius: 10px;
+    border-color: #f9fbff;
+  }
+  &__nav {
+    @include font-size(500, 14px, 21px);
+    color: $grey-light;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 14px;
+  }
+  &__user {
+    @include font-size(500, 14px, 21px);
+    color: $black-light;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #eeeeee;
+  }
+  &__table {
+    width: 100%;
+  }
+}
+th {
+  text-align: left;
+}
+.userBlockHeader {
+  &__allUser {
+    @include font-size(600, 22px, 33px);
+    padding-bottom: 7px;
+    letter-spacing: -0.01em;
+  }
+  &__active {
+    @include font-size(400, 14px, 21px);
+    padding-bottom: 7px;
+    letter-spacing: -0.01em;
+    color: $green-light;
+    padding-bottom: 40px;
+  }
+}
+.input {
+  position: relative;
+
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+  &__field {
+    padding-left: 43px;
+    color: #b5b7c0;
+  }
+}
+.button {
+  &__active {
+    background: rgba(22, 192, 152, 0.38);
+    border: 1px solid #00b087;
+    border-radius: 4px;
+    width: 80px;
+    height: 29px;
+    color: $green-strong;
+  }
+  &__inActive {
+    background: #ffc5c5;
+    border: 1px solid #df0404;
+    border-radius: 4px;
+    color: $red;
+    width: 84px;
+    height: 29px;
+  }
+}
