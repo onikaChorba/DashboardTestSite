@@ -4,16 +4,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   &__icon {
     width: 33px;
     height: 30px;
-    padding-left: 11.5px;
   }
   &__text {
     @include font-size(600, 26px, 29px);
     padding-left: 4px;
   }
   &__version {
+    padding-top: 10px;
     @include font-size(500, 10px, 15px);
   }
 }
