@@ -4,6 +4,7 @@ import userIcon from "@/assets/img/userIcon.png";
 import wallet from "@/assets/img/wallet.png";
 import discount from "@/assets/img/discount.png";
 import message from "@/assets/img/message.png";
+import routes from "./routes";
 const data = {
   navigation: [
     {
@@ -18,7 +19,7 @@ const data = {
     },
     {
       text: "Customers",
-      to: "/",
+      to: routes.CUSTOMERS,
       src: userIcon,
     },
     {
