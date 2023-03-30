@@ -1,24 +1,33 @@
-@import "@/theme/mixin.scss";
+@import "@/theme/index.scss";
 
 .logo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+  @include screen-tb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
   &__icon {
     width: 33px;
     height: 30px;
   }
   &__text {
-    @include font-size(600, 26px, 29px);
-    padding-left: 11px;
+    @include font-size(600, 10px, 12px);
     padding-right: 4px;
     letter-spacing: 0.01em;
+    @include screen-tb {
+      @include font-size(600, 26px, 29px);
+      padding-left: 11px;
+    }
   }
   &__version {
     letter-spacing: -0.01em;
-    padding-top: 10px;
+
     @include font-size(500, 10px, 15px);
     color: #838383;
+    @include screen-tb {
+      padding-top: 10px;
+    }
   }
 }

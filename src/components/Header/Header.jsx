@@ -20,7 +20,7 @@ export const Header = () => {
             <NavLink to={nav.to} className={activeLink} key={index}>
               <div className="list__text">
                 <img src={nav.src} alt="key" className="list__logo" />
-                {nav.text}
+                <div className="navText">{nav.text}</div>
               </div>
               <img src={arrow} alt="arrow" className="list__arrow" />
             </NavLink>

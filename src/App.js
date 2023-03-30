@@ -1,6 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { Header } from "./components/Header/Header";
 import { Customers } from "./pages/Customers/Customers";
+
 function App() {
   return (
     <div className="App">
