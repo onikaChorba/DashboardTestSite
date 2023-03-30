@@ -4,12 +4,11 @@ import userIcon from "@/assets/img/userIcon.png";
 import wallet from "@/assets/img/wallet.png";
 import discount from "@/assets/img/discount.png";
 import message from "@/assets/img/message.png";
-
 const data = {
   navigation: [
     {
       text: "Dashboard",
-      to: "/dasboard",
+      to: "/dashboard",
       src: key,
     },
     {
@@ -61,7 +60,7 @@ const data = {
       number: "(302) 555-0107",
       email: "ronald@adobe.com",
       country: "Israel",
-      status: "Inactive",
+      status: "Active",
     },
     {
       name: "Marvin McKinney",
@@ -85,7 +84,7 @@ const data = {
       number: "(704) 555-0127",
       email: "kathryn@microsoft.com",
       country: "Curaçao",
-      status: "Active",
+      status: "Inactive",
     },
     {
       name: "Jacob Jones",
@@ -165,7 +164,7 @@ const data = {
       number: "(208) 555-0112",
       email: "kristin@facebook.com",
       country: "Åland Islands",
-      status: "Inactive",
+      status: "Active",
     },
     {
       name: "Jane Cooper",
@@ -173,7 +172,7 @@ const data = {
       number: "(225) 555-0118",
       email: "jane@microsoft.com",
       country: "United States",
-      status: "Active",
+      status: "Inactive",
     },
     {
       name: "Floyd Miles",
@@ -181,7 +180,7 @@ const data = {
       number: "(205) 555-0100",
       email: "floyd@yahoo.com",
       country: "Kiribati",
-      status: "Inactive",
+      status: "Active",
     },
     {
       name: "Ronald Richards",
@@ -189,7 +188,7 @@ const data = {
       number: "(302) 555-0107",
       email: "ronald@adobe.com",
       country: "Israel",
-      status: "Inactive",
+      status: "Active",
     },
     {
       name: "Marvin McKinney",
@@ -205,7 +204,7 @@ const data = {
       number: "(629) 555-0129",
       email: "jerome@google.com",
       country: "Réunion",
-      status: "Active",
+      status: "InAtive",
     },
     {
       name: "Kathryn Murphy",
@@ -229,7 +228,7 @@ const data = {
       number: "(208) 555-0112",
       email: "kristin@facebook.com",
       country: "Åland Islands",
-      status: "Inactive",
+      status: "Active",
     },
     {
       name: "Jane Cooper",
@@ -253,7 +252,7 @@ const data = {
       number: "(302) 555-0107",
       email: "ronald@adobe.com",
       country: "Israel",
-      status: "Inactive",
+      status: "Active",
     },
     {
       name: "Marvin McKinney",
@@ -277,7 +276,7 @@ const data = {
       number: "(704) 555-0127",
       email: "kathryn@microsoft.com",
       country: "Curaçao",
-      status: "Active",
+      status: "Inctive",
     },
     {
       name: "Jacob Jones",

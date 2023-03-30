@@ -74,7 +74,7 @@ export const UserBlock = () => {
                         : "button__inActive"
                     }
                   >
-                    {user.status}
+                    <p className="button__text"> {user.status}</p>
                   </button>
                 </td>
               </tr>

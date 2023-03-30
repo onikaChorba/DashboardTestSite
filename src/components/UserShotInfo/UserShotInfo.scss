@@ -1,11 +1,18 @@
 @import "@/theme/index.scss";
 .userShortInfo {
-  display: flex;
-  align-items: center;
+  @include screen-tb {
+    display: flex;
+    align-items: center;
+  }
+
   &__icon {
-    width: 42px;
-    height: 42px;
+    width: 30px;
+    height: 30px;
     padding-right: 12px;
+    @include screen-tb {
+      width: 42px;
+      height: 42px;
+    }
   }
 }
 .info {
@@ -14,7 +21,10 @@
     color: black;
   }
   &__prof {
-    @include font-size(500, 12px, 18px);
+    @include font-size(500, 10px, 14px);
     color: $grey;
+    @include screen-tb {
+      @include font-size(500, 12px, 18px);
+    }
   }
 }
