@@ -18,6 +18,7 @@
     color: $grey-light;
     border-bottom: 1px solid #eeeeee;
     padding-bottom: 14px;
+    letter-spacing: -0.01em;
   }
   &__user {
     @include font-size(500, 14px, 21px);
@@ -25,9 +26,16 @@
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #eeeeee;
+    letter-spacing: -0.01em;
   }
   &__table {
     width: 100%;
+  }
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 41px;
   }
 }
 th {
@@ -49,8 +57,9 @@ th {
 }
 .input {
   position: relative;
-
   &__icon {
+    width: 16px;
+    height: 16px;
     position: absolute;
     top: 50%;
     left: 10px;
@@ -60,6 +69,9 @@ th {
     padding-left: 43px;
     color: #b5b7c0;
   }
+}
+input:focus {
+  width: 100%;
 }
 .button {
   &__active {
@@ -78,4 +90,33 @@ th {
     width: 84px;
     height: 29px;
   }
+}
+.userFooter {
+  &__text {
+    @include font-size(500, 14px, 21px);
+    letter-spacing: -0.01em;
+    color: $grey-light;
+  }
+}
+button {
+  width: 26px;
+  height: 24px;
+  background: #f5f5f5;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  margin-left: 12px;
+  @include font-size(500, 12px, 100%);
+  color: $grey-text-button;
+}
+
+button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+button.active {
+  border: 1px solid $violet-strong;
+  border-radius: 4px;
+  background: $violet-strong;
+  color: white;
 }

@@ -11,10 +11,14 @@
   }
   &__text {
     @include font-size(600, 26px, 29px);
-    padding-left: 4px;
+    padding-left: 11px;
+    padding-right: 4px;
+    letter-spacing: 0.01em;
   }
   &__version {
+    letter-spacing: -0.01em;
     padding-top: 10px;
     @include font-size(500, 10px, 15px);
+    color: #838383;
   }
 }
