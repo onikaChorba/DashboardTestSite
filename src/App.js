@@ -1,6 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { Header } from "./components/Header/Header";
-import { Dashboard } from "./pages/Dashboard/Dashboard";
+import { Customers } from "./pages/Customers/Customers";
 function App() {
   return (
     <div className="App">
@@ -8,7 +8,7 @@ function App() {
         <div className="wrapper">
           <Header />
           <Routes>
-            <Route exact path="/" element={<Dashboard />} />
+            <Route exact path="/" element={<Customers />} />
           </Routes>
         </div>
       </Router>

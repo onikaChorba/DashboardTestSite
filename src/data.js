@@ -9,7 +9,7 @@ const data = {
   navigation: [
     {
       text: "Dashboard",
-      to: "/",
+      to: "/dasboard",
       src: key,
     },
     {
@@ -19,7 +19,7 @@ const data = {
     },
     {
       text: "Customers",
-      to: "/customers",
+      to: "/",
       src: userIcon,
     },
     {
